@@ -26,3 +26,21 @@
     font-size: 22px;
 }
 
+h4 
+{
+    background-color: white;
+    margin: 0px;
+    line-height: 2px;
+}
+
+.modal-dilog 
+{
+    width: 90%;
+
+}
+
+.instructions_image
+{
+    width: 45%;
+    display: inline-block;
+}
