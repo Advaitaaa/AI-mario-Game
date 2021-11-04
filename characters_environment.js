@@ -14,7 +14,6 @@ var control={
   revive: 32
 }
 
-//Inner game status, which might affect game balance or playability.
 var gameConfig={
   
   // start, playing, over
@@ -52,9 +51,18 @@ var gameConfig={
 /*====================================
 =            Game Status             =
 ====================================*/
+noseX="";
+noseY="";
+gameStatus="";
+
+function start_game()
+{
+  gameStatus="start"
+  document.getElementById("status").innerHTML="Game is loading"
+}
 
 function game(){
-
+console.log("noseX="+noseX+"noseY=" + noseY)
   instializeInDraw();
   moveEnvironment(mario);
   drawSprites();
