@@ -2,6 +2,12 @@ function preload() {
 	world_start = loadSound("world_start.wav");
 	setSprites();
 	MarioAnimation();
+	mariojump= loadSound("jump.wav")
+	mariocoin= loadSound("coin.wav")
+	mariogameover=loadSound("gameover.wav")
+	mariokick=loadSound("kick.wav")
+	mariodie=loadSound("mariodie.wav")
+
 }
 
 function setup() {
